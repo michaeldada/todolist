@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <script src="js/scripts.js" type="text/javascript"></script>
-    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
-    <meta charset="utf-8">
-    <title>To Do List</title>
-  </head>
-  <body>
+<head>
+  <script src="js/jquery-1.12.0.js"></script>
+  <script src="js/scripts.js" type="text/javascript"></script>
 
-  </body>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+  <meta charset="utf-8">
+  <title>To Do List</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>To Do List</h1>
+    <form id="taskForm">
+      <div class="new-task">
+            <label for="new-task">Task</label>
+            <input type="text" class="form-control" id="new-task">
+      </div><br>
+
+      <div class="new-priority">
+            <label for="new-priority">Priority</label>
+            <input type="text" class="form-control" id="new-priority">
+      </div><br>
+
+      <div class="new deadline">
+        <label for="new-deadline">Deadline</label>
+        <input type="text" class="form-control" id="new-deadline">
+      </div><br>
+
+      <button type="submit" class="btn">Add</button><br>
+
+      <h2>Task List</h2>
+      <ul id="tasklist">
+
+      </ul>
+
+    </form>
+  </div>
+</body>
 </html>

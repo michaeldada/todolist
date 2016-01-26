@@ -1,16 +1,12 @@
-# addressBook
-
-##### Epicodus Section:  JavaScript OO - Address Book
-
-#### By Epicodus Lessons
+# To Do List
 
 ## Description
 
-This application is a demonstration of constructors and prototypes using JavaScript to create a simple Address Book app.
+This application is a simple to do list that allows users to cross off tasks when complete.
 
 ## Setup
 
-Install addressBook by cloning this repository.
+Install To Do List by cloning this repository.
 
 ## Technologies Used
 
@@ -19,7 +15,7 @@ Testing:  Mocha and Chai
 
 ### Legal
 
-Copyright (c) 2015 **Epicodus**
+Copyright (c) 2016 **Michael Dada and Cory Meyers**
 
 This software is licensed under the MIT license.
 

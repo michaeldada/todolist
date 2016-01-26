@@ -21,6 +21,9 @@ $(document).ready(function() {
 
     $("ul#tasklist").append("<li><span class='taskInsert'>" + newTask.entireTask() + "</span></li>");
 
+    $(".taskInsert").last().click(function() {
+    $(this).wrap("<strike>");
+    });
 
 
   });

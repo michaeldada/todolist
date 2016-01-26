@@ -15,7 +15,7 @@ $(document).ready(function(){
     var inputtedStreet = $("input#new-street").val();
     var inputtedCity = $("input#new-city").val();
     var inputtedState = $("input#new-state").val();
-    var newLocation = new  Location(inputtedStreet, inputtedCity, inputtedState);
+    var newLocation = new Location(inputtedStreet, inputtedCity, inputtedState);
 
     $("ul#locations").append("<li><span class='location'>" + newLocation.fullLocation() +"</span></li>");
 

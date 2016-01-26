@@ -1,0 +1,8 @@
+- placesbeen.html needed some more closing </div> tags to be complete
+- fixed a few indentation errors in placesbeen.html
+- scripts.js line 20: is span necessary? Class could be added to the <li> and eliminate the need for a span.
+- could use another spec for .fullLocation();
+
+good, descriptive variable names;
+concise js file;
+nice work!s
